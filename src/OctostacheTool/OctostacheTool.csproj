@@ -9,6 +9,16 @@
     <PackageOutputPath>../../nupkg</PackageOutputPath>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <PackageId>OctostacheTool</PackageId>
+    <Title>OctostacheTool</Title>
+    <Authors>Lucas Lorentz</Authors>
+    <AssemblyTitle>OctostacheTool</AssemblyTitle>
+    <Description>.NET Tool to replace octopus variables (Octostash)</Description>
+    <PackageProjectUrl>https://github.com/lucaslorentz/octostache-tool</PackageProjectUrl>
+    <PackageTags>octostache,octopus</PackageTags>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="2.3.4" />
     <PackageReference Include="Octostache" Version="2.4.0" />
