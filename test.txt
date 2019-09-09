@@ -1,0 +1,3 @@
+OS: #{OS}
+Windir: #{windir}
+PATH: #{PATH}
