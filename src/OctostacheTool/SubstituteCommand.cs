@@ -14,8 +14,8 @@ namespace OctostacheTool
         [Argument(0, "Input", "Input file. Use - for stdin")]
         public string Input { get; set; }
 
-        [Argument(1, "Output", "Output file. Use - for stdout")]
-        public string Output { get; set; } = "-";
+        [Argument(1, "Output", "Output file. Use - for stdout. Default to input file")]
+        public string Output { get; set; }
 
         private async Task<int> OnExecute()
         {
@@ -31,7 +31,7 @@ namespace OctostacheTool
 
             var replaced = octoVariables.Evaluate(content, out var error);
 
-            await WriteOutput(Output, replaced);
+            await WriteOutput(Output ?? Input, replaced);
 
             if (!string.IsNullOrEmpty(error))
             {
