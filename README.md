@@ -1,6 +1,6 @@
 # Introduction
 
-.NET Tool to replace octopus variables (Octostash) by environment variable values.
+.NET Tool to replace octopus variables (Octostache) by environment variable values.
 
 # Instructions
 
