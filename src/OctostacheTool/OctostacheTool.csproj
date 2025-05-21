@@ -6,7 +6,6 @@
     
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>octostache</ToolCommandName>   
-    <PackageOutputPath>../../nupkg</PackageOutputPath>
   </PropertyGroup>
 
   <PropertyGroup>

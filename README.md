@@ -17,7 +17,7 @@ octostache substitute test.txt
 # Development
 Pack:
 ```bash
-dotnet pack -c Release
+dotnet pack -c Release -o nupkg
 ```
 
 Install:
